@@ -19,5 +19,10 @@ namespace AlmostEmpty3_1StarterCode.Controllers
         {
             return View(); // returns associated data.
         }
+
+        public IActionResult About()
+        {
+            return View(); 
+        }
     }
 }
