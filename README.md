@@ -37,6 +37,18 @@ ViewData and ViewBag:
         - ViewData is a dictionary
         - ViewBag is a dynamic object
     * Simple but no complile time checking
+    
+Linking Pages:
+
+    Html Helpers:
+        * Older ASP.NET MVC Convention
+        * Can generate HTML/CSS markup
+        - ex: @Html.ActionLink("Home Page", "Index", "Home")
+        
+    Tag Helpers:
+        * Readable
+        * Core syntax
+        - ex: <a asp-controller="Home" asp-action="Index">Home Page</a>
    
 ## AlmostEmpty3-1StarterCode
 This website has more starter code than the empty template for an ASP.NET Core MVC website.
