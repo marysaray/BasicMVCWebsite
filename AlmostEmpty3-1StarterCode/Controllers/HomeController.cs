@@ -17,11 +17,15 @@ namespace AlmostEmpty3_1StarterCode.Controllers
         /// <returns></returns>
         public IActionResult Index()
         {
+            // ViewBag.Title = "Course";
+            ViewData["Title"] = "Course Title";
             return View(); // returns associated data.
         }
 
         public IActionResult About()
         {
+            //ViewBag.Title = "Description";
+            //ViewData["Title"] = "Course Description"; Added on About page.
             return View(); 
         }
     }
