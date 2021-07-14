@@ -1,0 +1,19 @@
+﻿@*Common HTML shared across all views.*@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <header>
+            <h1>Computer Programming</h1>
+        </header>
+        <main>
+            @RenderBody()
+        </main>
+        <footer>
+            &copy;@DateTime.Today.Year
+        </footer>
+    </body>
+</html>
