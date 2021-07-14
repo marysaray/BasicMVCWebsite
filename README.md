@@ -22,5 +22,5 @@ This website has more starter code than the empty template for an ASP.NET Core M
 Having a little more content allows for focusing on what makes a basic MVC website functional,
 allowing the student to build a basic website themselves.
 
-### MVC
+### MVC Version 3.1
 *Overview of ASP.NET Core MVC Resource:* https://docs.microsoft.com/en-us/aspnet/core/mvc/overview?view=aspnetcore-3.1
