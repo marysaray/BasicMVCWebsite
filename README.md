@@ -27,6 +27,16 @@ Layout Pages Resource: https://docs.microsoft.com/en-us/aspnet/core/mvc/views/la
         - Reduce code redundancy
         - Consistent theme
         - Defined in_ViewStart.cshtml
+        
+ViewData and ViewBag:
+
+    * Views and Controllers both have access
+        - Pass data from the controller to a View
+        - Set <title> on a layout page
+    * ViewData and ViewBag are similiar
+        - ViewData is a dictionary
+        - ViewBag is a dynamic object
+    * Simple but no complile time checking
    
 ## AlmostEmpty3-1StarterCode
 This website has more starter code than the empty template for an ASP.NET Core MVC website.
