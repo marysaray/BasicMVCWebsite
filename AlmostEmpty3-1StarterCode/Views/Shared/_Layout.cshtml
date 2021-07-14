@@ -5,6 +5,7 @@
     <head>
         @*<title>@ViewBag.Title</title>*@
         <title>@ViewData["Title"]</title>
+        <link rel="stylesheet" href="~/css/site.css" />
     </head>
     <body>
         <header>
@@ -14,7 +15,8 @@
             @* Html Helpers: @Html.ActionLink("Course Page", "Index", "Home")*@
             @* Tag helpers: server side attribute*@
             <a asp-controller="Home" asp-action="Index">Courses</a><br />
-            <a asp-controller="Home" asp-action="About">Description</a>
+            <a asp-controller="Home" asp-action="About">Description</a><br />
+            <a asp-controller="Home" asp-action="Book">Books</a>
         </nav>
         <main>
             @RenderBody()
