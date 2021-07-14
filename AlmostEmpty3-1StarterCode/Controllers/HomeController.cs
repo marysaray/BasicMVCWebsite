@@ -12,7 +12,7 @@ namespace AlmostEmpty3_1StarterCode.Controllers
         // IActionResult is an interface that is used to swap different components quickly and efficiently.
         #endregion
         /// <summary>
-        /// Interface for the webpage named Index.
+        /// Interface for Index content.
         /// </summary>
         /// <returns></returns>
         public IActionResult Index()
@@ -22,11 +22,24 @@ namespace AlmostEmpty3_1StarterCode.Controllers
             return View(); // returns associated data.
         }
 
+        /// <summary>
+        /// Interface for About content.
+        /// </summary>
+        /// <returns></returns>
         public IActionResult About()
         {
             //ViewBag.Title = "Description";
             //ViewData["Title"] = "Course Description"; Added on About page.
             return View(); 
+        }
+
+        /// <summary>
+        /// Interface for Book content.
+        /// </summary>
+        /// <returns></returns>
+        public IActionResult Book()
+        {
+            return View();
         }
     }
 }
