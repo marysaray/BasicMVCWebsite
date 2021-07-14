@@ -10,6 +10,12 @@
         <header>
             <h1>Computer Programming</h1>
         </header>
+        <nav>
+            @* Html Helpers: @Html.ActionLink("Course Page", "Index", "Home")*@
+            @* Tag helpers: server side attribute*@
+            <a asp-controller="Home" asp-action="Index">Courses</a><br />
+            <a asp-controller="Home" asp-action="About">Description</a>
+        </nav>
         <main>
             @RenderBody()
         </main>
